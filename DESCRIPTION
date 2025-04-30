@@ -1,28 +1,30 @@
 Package: cifti
 Type: Package
-Title: Toolbox for Connectivity Informatics Technology Initiative ('CIFTI') 
-    Files
+Title: Toolbox for Connectivity Informatics Technology Initiative
+        ('CIFTI') Files
 Version: 0.4.7
 Date: 2020-05-19
-Authors@R: person(given = "John", family = "Muschelli", 
-    role = c("aut", "cre"), email = "muschellij2@gmail.com")
+Authors@R: person(given = "John", family = "Muschelli", role = c("aut",
+        "cre"), email = "muschellij2@gmail.com")
 Maintainer: John Muschelli <muschellij2@gmail.com>
 Description: Functions for the input/output and visualization of
-    medical imaging data in the form of 'CIFTI' files 
-    <https://www.nitrc.org/projects/cifti/>.
+        medical imaging data in the form of 'CIFTI' files
+        <https://www.nitrc.org/projects/cifti/>.
 License: GPL-2
-Imports:
-    xml2,
-    oro.nifti,
-    gifti,
-    utils,
-    R.utils
+Imports: xml2, oro.nifti, gifti, utils, R.utils
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
-Suggests: covr,
+Suggests: 
+    covr,
     knitr,
     rmarkdown,
     rgl,
-    matrixStats
+    matrixStats,
+    testthat
 VignetteBuilder: knitr
+Repository: Neuroconductor-Devel
+Remotes: 
+    neuroconductor-devel/gifti@bf5a82f039b9def04af40f9951c2776ca37f4ca6,
+    neuroconductor-devel/oro.nifti@517ce5312094bf1ecee49bd09024769d3e5d2daa
+biocViews: 
