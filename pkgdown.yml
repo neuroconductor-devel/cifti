@@ -1,0 +1,7 @@
+pandoc: 3.1.11
+pkgdown: 2.1.2
+pkgdown_sha: ~
+articles:
+  cifti_work: cifti_work.html
+  test_dims_MSC: test_dims_MSC.html
+last_built: 2025-04-30T20:49Z
